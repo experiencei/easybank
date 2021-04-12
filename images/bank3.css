@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100&display=swap');
+
+*,*::after,::before{
+    box-sizing: border-box;
+}
+body {
+ font-family: 'Public Sans', sans-serif;
+
+}
+h3 {
+    font-weight: 7700 ;
+    font-weight: 400 ;
+       
+   }
+     
+a {
+     text-decoration: none;
+   }
+     
+.container {
+    max-width: 75rem;
+    width: 95%;
+    margin: 0 auto;
+   }
+#desktop{
+    display: none;
+}
+.mobile_nav{
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.choose{
+    color: red;
+}
